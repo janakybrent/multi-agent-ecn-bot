@@ -39,9 +39,7 @@ This app uses GPT-4 and a multi-agent design pattern to automate global Engineer
 
 Here’s what the app looks like in action:
 
-![App Screenshot](assets/Bot_UI_Screenshot.jpg)
-
-
+![App Screenshot](assets/Bot_UI_Screenshot.JPG)
 
 ---
 
@@ -124,9 +122,6 @@ The application can be customized for different organizational needs:
 - [ ] Create a dashboard for tracking notification metrics
 - [ ] Add multilingual support for global organizations
 
-## 📄 License
-
-MIT License
 
 ## 👤 Author
 
