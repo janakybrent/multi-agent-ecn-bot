@@ -5,6 +5,9 @@
 [![Streamlit](https://img.shields.io/badge/Streamlit-1.24.0-red.svg)](https://streamlit.io/)
 [![MIT License](https://img.shields.io/badge/license-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
+## 🌐 Live Demo
+
+👉 [Click here to try the app](https://janakybrent-multi-agent-ecn-bot.streamlit.app)
 
 This app uses GPT-4 and a multi-agent design pattern to automate Engineering Change Notice (ECN) communication. It takes a structured ECN JSON file as input, analyzes the data, drafts a customer-facing notification, builds a simulated CRM campaign, and logs email actions — all via a friendly Streamlit interface.
 
