@@ -6,6 +6,7 @@ from io import BytesIO
 from docx import Document
 import openai
 
+st.set_page_config(page_title="Agentic AI ECN Bot", layout="centered")
 st.secrets["OPENAI_API_KEY"]
 
 class AnalystAgent:
@@ -57,7 +58,7 @@ def generate_word_doc(text):
     buffer.seek(0)
     return buffer
 
-st.set_page_config(page_title="Agentic AI ECN Bot", layout="centered")
+
 st.title("🤖 ECN Notification Bot (Agentic AI)")
 
 with st.expander("📄 ECN JSON Format (click to view example)"):
