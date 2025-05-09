@@ -117,8 +117,8 @@ The application can be customized for different organizational needs:
 
 ## 🛣️ Roadmap
 
-- [ ] Add support for additional ECN format standards (AS9016, etc.)
-- [ ] Implement real email integration via SMTP
+- [ ] Implement real SFDC integration for generating campaigns.
+- [ ] Implement real Smartsheet integration to automatically pull in ECN number and ECN details. 
 - [ ] Create a dashboard for tracking notification metrics
 - [ ] Add multilingual support for global organizations
 
