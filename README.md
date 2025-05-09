@@ -11,14 +11,13 @@ Try the deployed app here:
 👉 [https://multi-agent-ecn-bot-d6hei4irabtv8ggtgyw8as.streamlit.app](https://multi-agent-ecn-bot-d6hei4irabtv8ggtgyw8as.streamlit.app)
 
 
-
-This app uses GPT-4 and a multi-agent design pattern to automate Engineering Change Notice (ECN) communication. It takes a structured ECN JSON file as input, analyzes the data, drafts a customer-facing notification, builds a simulated CRM campaign, and logs email actions — all via a friendly Streamlit interface.
+This app uses GPT-4 and a multi-agent design pattern to automate global Engineering Change Notice (ECN) communication. It takes a structured ECN JSON file as input, analyzes the data, drafts a customer-facing notification, builds a simulated CRM campaign, and logs email actions — all via a friendly Streamlit interface.
 
 ## 🔍 The Problem & Solution
 
-**Problem:** Engineering Change Notices (ECNs) are critical but time-consuming Quality-related communications that are very demanding of Product Managers’ time time and are often a significant distraction from more valuable, strategic work.
+Problem: Engineering Change Notices (ECNs) are a significant administrative burden for product managers globally. This convoluted, clunky process drains valuable time and resources, distracting product managers from strategic, needle-moving work. The manual effort required for analysis, documentation, customer segmentation, and professional communication creates a bottleneck in product development workflows.
 
-**Solution:** This application automates the entire ECN communication workflow by using specialized AI agents working together to analyze changes, draft professional communications, and prepare distribution campaigns (CRM: SalesForce) - reducing manual effort by 80%, ensuring consistent quality and eliminating low-value work for Product Managers, .
+Solution: This application liberates product managers from ECN administrative overhead by automating the entire communication workflow. Using specialized AI agents working collaboratively, it handles metadata extraction, drafts professional notifications, builds distribution campaigns, and simulates delivery—all with minimal human intervention. The result: product managers reclaim up to 80% of ECN-related time to focus on strategic initiatives while ensuring consistent, high-quality customer communications.
 
 ## 🏗️ System Architecture
 
