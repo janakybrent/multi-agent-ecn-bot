@@ -6,7 +6,7 @@ from io import BytesIO
 from docx import Document
 import openai
 
-openai.api_key = "{OPENAI_API_KEY}"
+st.secrets["OPENAI_API_KEY"]
 
 class AnalystAgent:
     def process(self, ecn_data):
