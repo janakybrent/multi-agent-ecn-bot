@@ -15,9 +15,9 @@ This app uses GPT-4 and a multi-agent design pattern to automate global Engineer
 
 ## 🔍 The Problem & Solution
 
-Problem: Engineering Change Notices (ECNs) are a significant administrative burden for product managers globally. This convoluted, clunky process drains valuable time and resources, distracting product managers from strategic, needle-moving work. The manual effort required for analysis, documentation, customer segmentation, and professional communication creates a bottleneck in product development workflows.
+*Problem*: Engineering Change Notices (ECNs) are a significant administrative burden for product managers globally. This convoluted, clunky process drains valuable time and resources, distracting product managers from strategic, needle-moving work. The manual effort required for analysis, documentation, customer segmentation, and professional communication creates a bottleneck in product development workflows.
 
-Solution: This application liberates product managers from ECN administrative overhead by automating the entire communication workflow. Using specialized AI agents working collaboratively, it handles metadata extraction, drafts professional notifications, builds distribution campaigns, and simulates delivery—all with minimal human intervention. The result: product managers reclaim up to 80% of ECN-related time to focus on strategic initiatives while ensuring consistent, high-quality customer communications.
+*Solution*: This application liberates product managers from ECN administrative overhead by automating the entire communication workflow. Using specialized AI agents working collaboratively, it handles metadata extraction, drafts professional notifications, builds distribution campaigns, and simulates delivery—all with minimal human intervention. The result: product managers reclaim up to 80% of ECN-related time to focus on strategic initiatives while ensuring consistent, high-quality customer communications.
 
 ## 🏗️ System Architecture
 
