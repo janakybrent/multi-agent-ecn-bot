@@ -35,11 +35,13 @@ This app uses GPT-4 and a multi-agent design pattern to automate global Engineer
 - 🖼️ **Streamlit UI:** Modern, interactive interface built for usability.
 - 🔄 **Agent Orchestration:** Demonstrates collaborative AI agent workflow.
 
-## 🖥️ Demo
+## 📸 App Demo Screenshot
 
-![App Demo](https://github.com/janakybrent/multi-agent-ecn-bot/raw/main/assets/demo-screenshot.png)
+Here’s what the app looks like in action:
 
-*Note: Add a screenshot of your app in action to the repository.*
+![App Screenshot](assets/Bot_UI_Screenshot.jpg)
+
+
 
 ---
 
