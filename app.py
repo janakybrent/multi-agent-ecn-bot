@@ -2,13 +2,12 @@ import streamlit as st
 import json
 from io import BytesIO
 from docx import Document
-from openai import OpenAI
+import openai
 
 st.set_page_config(page_title="Agentic AI ECN Bot", layout="centered")
 
-# ✅ Get API key securely from Streamlit Cloud secrets
+# ✅ Secure API key from Streamlit Cloud
 openai.api_key = st.secrets["OPENAI_API_KEY"]
-
 
 class AnalystAgent:
     def process(self, ecn_data):
@@ -30,13 +29,13 @@ class WriterAgent:
             f"Effective Date: {data['effective_date']}\n"
             f"Contact: {data['owner']}\n"
         )
-        response = client.chat.completions.create(
+        response = openai.ChatCompletion.create(
             model="gpt-4",
             messages=[{"role": "user", "content": prompt}],
             max_tokens=500,
             temperature=0.5
         )
-        return response.choices[0].message.content
+        return response["choices"][0]["message"]["content"]
 
 class CRMManagerAgent:
     def create_campaign(self, data):
@@ -99,5 +98,6 @@ if uploaded_file:
         st.error(f"❌ Error: {e}")
 else:
     st.info("Please upload an ECN JSON file.")
+
 
 
